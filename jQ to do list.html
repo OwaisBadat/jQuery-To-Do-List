@@ -1,0 +1,34 @@
+<html>
+<head>
+
+<link rel="stylesheet" type="text/css" href="jQtodo.css"></link>
+
+</head>
+
+<body>
+Enter Task
+<input type="text" id="taskTextBox" onkeyup="this.value = this.value.toUpperCase();" placeholder="ENTER TASK"/>
+<button id="addTaskButton">Add Task</button>
+
+
+
+<div>
+  <h3><label>Pending Tasks</label></h3>
+  <ol id="pendingTasks">
+  </ol>
+</div>
+
+<div>
+  <h3><label>Completed Tasks</label></h3>
+  <ol id="CompletedTasks">
+  </ol>
+</div>
+
+
+
+</body>
+
+<script src="jquery3.js"></script>
+<script src="jQtodo.js"></script>
+
+</html>
